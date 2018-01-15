@@ -1,2 +1,8 @@
-t 1.1 tehty
-t 1.2 
+Esko Hanell Demo1
+
+t 1.1 Tehty
+t 1.2 Käytin "sudo raspi-config" komentoa ja muunsi sieltä käsketyt asiat.
+t 1.3 Etäyhteyteen käytin pi:n langatonta verkkokorttia ja omaa langattomasti jakavaa mukkulaa ja lisäksi yhtä nettitikkua omassa koneessani ja sitten otin raspiin yhteyttä ssh komennolla linuksista ja windowssista puttyllä. IP osoite on tällä hetkellä 192.168.1.4
+t 1.4 Olen kirjoittanut raspin toiselle raspilleni 3 kertaa ja juuri jouduin kirjoittamaan tämän alussa uudelleen koska onnistuin ilmeisesti sammuttamaan sen kesken päivitysten ja kaikki meni ihan sekaisin. linuksilla helppoa kun vaan lataa .img tiedoston ja kopioi sen muistikortille. windowssilla taisin käyttää rufus nimistä ohjelmaa ainakin usb tikkujen formatoimiseen, en ole ihan varma toimiko se sd korteillekkin. komento jota tällä kertaa käytin oli "sudo dd bs=4M if=/home/harddrive/downloads/2017-09-07-raspbian-stretch.img of=/dev/sdc2 conv=fsync". Kuva minulla oli jo valmiina ladattuna aimmalta.
+
+
