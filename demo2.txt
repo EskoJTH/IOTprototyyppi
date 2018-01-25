@@ -1,0 +1,3 @@
+3.1 sensors.py tiedostossa on lämpösensorin lukeva koodi.
+3.2 Siirsin jsonin pääkoneelta yksinkertaisesti kopioimalla ssh:lle. Alkuperäisen tiedoston saaminen vaati kirjaustumista googedriven apiin ja erilaisten asetusten päälle laittamista. unipiprojecttemphum@projectpitemphum.iam.gserviceaccount.com
+
