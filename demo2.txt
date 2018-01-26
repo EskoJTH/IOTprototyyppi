@@ -1,3 +1,14 @@
 3.1 sensors.py tiedostossa on lämpösensorin lukeva koodi.
+
 3.2 Siirsin jsonin pääkoneelta yksinkertaisesti kopioimalla ssh:lle. Alkuperäisen tiedoston saaminen vaati kirjaustumista googedriven apiin ja erilaisten asetusten päälle laittamista. unipiprojecttemphum@projectpitemphum.iam.gserviceaccount.com
+
+3.3 raspivid -o videjo.h264 -w 100 -h 100 -t 15000
+
+3.5 Otin vahingossa videota mutta pelittää
+
+3.6 crontab komento:
+00 * * * * cd /home/pi/Pictures/kuva/ && /usr/bin/python3 /home/pi/tyo/takepic.py &
+
+3.7 Asensin apachen ja pistin pyörimään. Loin linkin tallennettuihin kuviin komennolla "sudo ln -s <sijainti>" sijaimmissa var/www/public_html/kuva. nyt kuvat löytyvät lähiverkossa. En tietenkäät itse tätä heti tajunnut koska tietokoneeni olikin vahingossa kiinni eri reitittimessä kuin rpi. tuntia myöhemmin raspberry pi:n palomuureihin ja apachen conffaustiedostoihin perehdytttyäni päätin yhdistää myös oikeaan verkkoon.
+
 
