@@ -1,0 +1,6 @@
+Tehtävä 5_1 tehty lähdekoodi: pirled.c; tiedosto: T5_1; Kääntäjänä oli varmaan gcc?
+Tehtävä 5_2 tehty lähdekoodi: liikennevalot.c; käännetty tiedosto: T5_2; Kääntäjänä oli varmaan gcc?
+Tethävä 5_3 tiedostoissa redisListen.py Ja redisWrite.py; käänsin python3:lla
+tehtävä 5_4 tehty Ei ollut koulun palvelinta käyttää, mutta tein kaiken paikallisesti.
+  Tiedostoissa: MQTTKuuntelia.py, MQTTasiakas.py, MQTTkomentorivi.txt.
+Tehtävä 4_1 tehty motion1.txt:ssä muutokset. Tein tämän vissiin jo aikaisemminkin mutta jouduin formatoimaan raspin kun netti hajosi ja en ollut voinut tallentaa.
