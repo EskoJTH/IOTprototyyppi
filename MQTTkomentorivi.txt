@@ -1,0 +1,19 @@
+
+-käynnistän manuaalisesti uuden serverin. Näyttää tosin käynnistyvän automaattisestikkin portissa 1883
+
+mosquitto -p 25000
+
+
+- käynnistetään kuuntelu:
+
+mosquitto_sub -h localhost -t testi -p 25000
+
+
+- lähtetään viesti:
+
+mosquitto_pub -h localhost -t testi -m "kissa!" -p 25000
+
+
+
+-En kerennyttekemään ohjauksessa, mutta ajatuksen pitäisi olla ihan hallussa.
+
